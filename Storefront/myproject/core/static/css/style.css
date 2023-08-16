@@ -1,0 +1,84 @@
+* {
+    background-color: slategray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    width: 49%;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: 1px solid green;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+  display: inline-block;
+  margin: 10px 0; /* Add vertical margin between links */
+  padding: 8px 12px;
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+a.logout-link {
+  display: inline-block; /* Ensure the link is displayed as a block element */
+  margin-top: 10px; /* Remove any margin */
+  padding: 8px 12px; /* Remove any padding */
+  background-color: teal; /* Set the background color */
+  color: white;
+  text-decoration: none; /* Remove any underline or styling */
+}
+
+.add-product-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+p.bg-gray-200 {
+   display: inline-block;
+   margin-top: 30px;
+}
+
+a.Add-Cart {
+  display: inline-block; /* Ensure the link is displayed as a block element */
+  margin-top: 10px; /* Remove any margin */
+  padding: 8px 12px; /* Remove any padding */
+  background-color: teal; /* Set the background color */
+  color: white;
+  text-decoration: none; /* Remove any underline or styling */
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensure the image doesn't take up the full width */
+  margin: 0 auto; /* Center the image horizontally within the .image-wrapper */
+}
+
+.image-wrapper {
+  margin-bottom: 10px; /* Add a margin below the image to separate it from other elements */
+  background-color: slategray; /* Set the background color of the image wrapper */
+  padding: 8px; /* Add some padding to the image wrapper */
+}

@@ -1,0 +1,27 @@
+    {% extends 'base.html' %}
+
+    {% block title %}
+        Vendor Admin
+    {% endblock %}
+
+    {% block content %}
+        <h1>Vendor Admin</h1>
+
+
+        <div class="logout-wrapper">
+            <a href="#" class="add-product-link">Add Product</a>
+        </div>
+
+        <div>
+            <h2>My Products</h2>
+        </div>
+
+        {% if products %}
+            has products
+        {% else %}
+            <div>
+                <p class="mt-4 py-4 px-8 bg-gray-200">You don't have any products yet...</p>
+            </div>
+        {% endif %}
+    {% endblock %}
+
